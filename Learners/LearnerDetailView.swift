@@ -18,7 +18,7 @@ struct LearnerDetailView: View {
             Image(learner.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 280, height: 280)
+                .frame(width: 270, height: 270)
                 .clipShape(Circle())
                 .shadow(radius: 30)
                 .padding()
